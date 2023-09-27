@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+var mysql = require('mysql2');
 module.exports = {
     pool: mysql.createPool({
         host: process.env.DB_MYSQL_HOST || 'localhost',
